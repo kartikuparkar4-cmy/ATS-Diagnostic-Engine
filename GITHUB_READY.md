@@ -202,7 +202,7 @@ git status
 # .env files should NOT appear in "Changes to be committed"
 
 # 3. Search for any API keys in tracked files (should find none)
-git grep -i "AQ.Ab8RN6IRF0In"
+git grep -i "YOUR_API_KEY_PATTERN"
 # Should return empty (no results)
 
 # 4. List all tracked files
