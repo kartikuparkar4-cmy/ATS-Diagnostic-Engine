@@ -35,7 +35,7 @@ You have **TWO OPTIONS**:
 3. **Get connection string**:
    - Click "Connect" on your cluster
    - Choose "Connect your application"
-   - Copy the connection string (looks like: `mongodb+srv://username:password@cluster.mongodb.net/`)
+   - Copy the connection string provided by MongoDB Atlas
 4. **Update server/.env**:
    ```env
    MONGODB_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/ats-analyzer?retryWrites=true&w=majority

@@ -46,7 +46,7 @@ FRONTEND_URL=http://localhost:3000
 
 # MongoDB
 MONGODB_URI=mongodb://localhost:27017/ats-analyzer
-# OR MongoDB Atlas: mongodb+srv://username:password@cluster.mongodb.net/ats-analyzer
+# OR MongoDB Atlas: [Get connection string from MongoDB Atlas]
 
 # JWT Secret (Generate a strong random string!)
 JWT_SECRET=your-super-secret-jwt-key-change-this

@@ -27,9 +27,8 @@ Before starting, verify:
 3. Create M0 FREE cluster
 4. Create database user with password
 5. Allow access from anywhere (0.0.0.0/0)
-6. Get connection string
-7. Edit server/.env:
-   MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/ats-analyzer
+6. Get connection string (click "Connect" → "Connect your application")
+7. Edit server/.env and paste your connection string
 8. Save file (backend auto-restarts)
 ```
 

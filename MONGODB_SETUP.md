@@ -57,10 +57,7 @@ Go to: https://www.mongodb.com/cloud/atlas/register
 - Choose "Connect your application"
 - Driver: **Node.js**
 - Version: **5.5 or later**
-- Copy the connection string (looks like):
-  ```
-  mongodb+srv://atsadmin:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
-  ```
+- Copy the connection string (MongoDB Atlas will provide this)
 
 #### 6. Update Your Server Config
 Open `server/.env` and replace the MongoDB line:
@@ -72,15 +69,13 @@ MONGODB_URI=mongodb://localhost:27017/ats-analyzer
 
 **AFTER:**
 ```env
-MONGODB_URI=mongodb+srv://atsadmin:YOUR_PASSWORD_HERE@cluster0.xxxxx.mongodb.net/ats-analyzer?retryWrites=true&w=majority
+MONGODB_URI=[PASTE_YOUR_ATLAS_CONNECTION_STRING_HERE]
 ```
 
-**IMPORTANT:** Replace `<password>` with the password you copied in Step 3!
-
-Example:
-```env
-MONGODB_URI=mongodb+srv://atsadmin:MySecurePass123@cluster0.abc123.mongodb.net/ats-analyzer?retryWrites=true&w=majority
-```
+**IMPORTANT:** 
+1. Replace the entire value with your Atlas connection string
+2. Make sure to replace `<password>` with your actual password
+3. Add `/ats-analyzer` at the end before the query parameters
 
 #### 7. Restart Backend Server
 The backend server will auto-restart when you save `.env`, OR:
