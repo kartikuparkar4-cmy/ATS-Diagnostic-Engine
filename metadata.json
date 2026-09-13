@@ -1,0 +1,6 @@
+{
+  "name": "ATS Diagnostic Engine",
+  "description": "An elite ATS checker that analyzes resumes against job descriptions with mechanical accuracy, providing match scores, keyword gap analysis, and formatting audits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
